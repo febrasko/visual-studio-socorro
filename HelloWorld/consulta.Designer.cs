@@ -1,7 +1,6 @@
-﻿
-namespace HelloWorld
+﻿namespace HelloWorld
 {
-    partial class consulta
+    partial class Consulta
     {
         /// <summary>
         /// Required designer variable.
@@ -36,21 +35,21 @@ namespace HelloWorld
             // dgvConsulta
             // 
             this.dgvConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConsulta.Location = new System.Drawing.Point(32, 37);
+            this.dgvConsulta.Location = new System.Drawing.Point(12, 12);
             this.dgvConsulta.Name = "dgvConsulta";
             this.dgvConsulta.RowTemplate.Height = 25;
-            this.dgvConsulta.Size = new System.Drawing.Size(240, 150);
+            this.dgvConsulta.Size = new System.Drawing.Size(357, 243);
             this.dgvConsulta.TabIndex = 0;
             // 
-            // consulta
+            // Consulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(727, 446);
             this.Controls.Add(this.dgvConsulta);
-            this.Name = "consulta";
-            this.Text = "consulta";
-            this.Load += new System.EventHandler(this.consulta_Load);
+            this.Name = "Consulta";
+            this.Text = "Consulta";
+            this.Load += new System.EventHandler(this.Consulta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvConsulta)).EndInit();
             this.ResumeLayout(false);
 
