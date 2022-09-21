@@ -37,7 +37,7 @@ namespace HelloWorld
             // 
             // btnconsulta
             // 
-            this.btnconsulta.Location = new System.Drawing.Point(12, 384);
+            this.btnconsulta.Location = new System.Drawing.Point(12, 363);
             this.btnconsulta.Name = "btnconsulta";
             this.btnconsulta.Size = new System.Drawing.Size(69, 23);
             this.btnconsulta.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace HelloWorld
             "8",
             "9",
             "10"});
-            this.comboBox1.Location = new System.Drawing.Point(12, 33);
+            this.comboBox1.Location = new System.Drawing.Point(12, 12);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 23);
             this.comboBox1.TabIndex = 2;
@@ -67,7 +67,7 @@ namespace HelloWorld
             // dgvConsulta
             // 
             this.dgvConsulta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvConsulta.Location = new System.Drawing.Point(12, 62);
+            this.dgvConsulta.Location = new System.Drawing.Point(12, 41);
             this.dgvConsulta.Name = "dgvConsulta";
             this.dgvConsulta.RowTemplate.Height = 25;
             this.dgvConsulta.Size = new System.Drawing.Size(733, 316);
